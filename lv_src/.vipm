@@ -1,0 +1,9 @@
+{
+  "name":".NET Process Project",
+  "labview-version":"2019",
+  "labview-bitness":"any",
+  "lv-venv":"lv-venv",
+  "main-project":".NET Process Project.lvproj",
+  "main-vipc":"",
+  "main-vipb":""
+}
