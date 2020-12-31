@@ -12,8 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name=".NET Process Tester.vi" Type="VI" URL="../.NET Process Tester.vi"/>
-		<Item Name=".NET Process.lvclass" Type="LVClass" URL="../.NET Process/.NET Process.lvclass"/>
+		<Item Name="Example - cmd.vi" Type="VI" URL="../examples/Example - cmd.vi"/>
+		<Item Name="SystemProcessManager.lvclass" Type="LVClass" URL="../.NET Process/SystemProcessManager.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -48,15 +48,9 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Application Directory__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/file/file.llb/Application Directory__ogtk.vi"/>
-			<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
-			<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
-			<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
-			<Item Name="Strip Path__ogtk.vi" Type="VI" URL="../lv-venv/lv.lib/user.lib/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
