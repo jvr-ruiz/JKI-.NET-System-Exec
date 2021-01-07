@@ -1,9 +1,9 @@
 {
-  "name":".NET Process Project",
-  "labview-version":"2019",
+  "name":"JKI System Process Manager",
+  "labview-version":"2020",
   "labview-bitness":"any",
   "lv-venv":"lv-venv",
-  "main-project":".NET Process Project.lvproj",
-  "main-vipc":"",
+  "main-project":"JKI System Process Manager.lvproj",
+  "main-vipc":"JKI System Process Manager.vipc",
   "main-vipb":"JKI System Process Manager.vipb"
 }
