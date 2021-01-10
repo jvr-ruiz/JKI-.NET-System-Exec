@@ -21,7 +21,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="dotnet_system_exec.lvclass" Type="LVClass" URL="../.NET Process/dotnet_system_exec.lvclass"/>
+		<Item Name="dotnet_system_exec.lvclass" Type="LVClass" URL="../dotnet_system_exec/dotnet_system_exec.lvclass"/>
 		<Item Name="example_cmd.vi" Type="VI" URL="../examples/example_cmd.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
