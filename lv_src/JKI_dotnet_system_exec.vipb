@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-31 00:24:06" Modified_Date="2021-01-09 20:04:08" Creator="Javier Ruiz" Comments="" ID="75045c3303afad6e00d998a646c48614">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-31 00:24:06" Modified_Date="2021-01-10 16:00:32" Creator="Javier Ruiz" Comments="" ID="3939caa47efca4803f2d3683eea9075d">
   <Library_General_Settings>
     <Package_File_Name>JKI_lib_dotnet_system_exec</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -35,6 +35,7 @@
       <URL/>
       <Release_Notes>- First public build of the package
 - Made methods shared reentrant
+- Fixed naming for the public events
 </Release_Notes>
     </Description>
     <Destinations>
@@ -278,7 +279,7 @@
         <Path>unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D83F3CAA4DB154C1DE10A1B566A7A07B</GUID>
+      <GUID>B5261F890583EC62BBF3F8C877ECBBFF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -313,7 +314,7 @@
         <Path>examples\example_cmd.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C61CF174AF5BF5372236C6885B7C86CF</GUID>
+      <GUID>D9237B0E31F7400EEF681FBEC2BCBB83</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

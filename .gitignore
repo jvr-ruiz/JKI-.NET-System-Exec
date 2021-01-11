@@ -7,3 +7,5 @@ __pycache__/
 lv-venv
 py-env
 builds
+.DS_Store
+._.DS_Store
