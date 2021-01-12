@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-31 00:24:06" Modified_Date="2021-01-11 20:32:26" Creator="Javier Ruiz" Comments="" ID="1fe0be132f9530ba4fc904a0cd04d023">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-31 00:24:06" Modified_Date="2021-01-11 21:30:25" Creator="Javier Ruiz" Comments="" ID="274e149fead85cfd229372346f321a7a">
   <Library_General_Settings>
     <Package_File_Name>JKI_lib_dotnet_system_exec</Package_File_Name>
     <Library_Version>1.0.0.6</Library_Version>
@@ -183,7 +183,10 @@
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
-      <Text_to_Add>{product_name} {version_number}
+      <Text_to_Add>
+
+-----------------------------------------------
+{product_name} {version_number}
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
     </VI_Docs>
@@ -279,7 +282,7 @@
         <Path>unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2DEC5E296245C0F68AF786352CE223A</GUID>
+      <GUID>CA5A39404F200D1E385C726737BC4CA8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -314,7 +317,7 @@
         <Path>examples\example_cmd.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5F549288532E71C717D60601B0123B6</GUID>
+      <GUID>29F120DBEDCA59B29DC5998F2FB2A9A8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
