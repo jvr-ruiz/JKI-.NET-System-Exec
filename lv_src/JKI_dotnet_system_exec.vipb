@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-31 00:24:06" Modified_Date="2021-02-09 16:58:54" Creator="Javier Ruiz" Comments="" ID="741afe1c54fbf569183a503126c7d5e1">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2020-12-31 00:24:06" Modified_Date="2021-02-09 17:05:35" Creator="Javier Ruiz" Comments="" ID="d01fda7fc3af28765d4a952fdb694d04">
   <Library_General_Settings>
     <Package_File_Name>JKI_lib_dotnet_system_exec</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -29,12 +29,14 @@
     <Description>
       <One_Line_Description_Summary>Allows you to create and asynchronously launch an instance of the .NET System Process in order to run any application (i.e. cmd.exe). It configures the instance to redirect the stdout, stderr, and stdin so that LabVIEW can interface with them.</One_Line_Description_Summary>
       <Description>Allows you to create and asynchronously launch an instance of the .NET System Process in order to run any application (i.e. cmd.exe).  Use this library instead of the default LabVIEW System Exec vi. It configures the instance to redirect the stdout, stderr, and stdin so that LabVIEW can interface with them. Use the public events to register for the stdout and stderr events. Send strings to stdin using the stdin.write.vi. Run the provided example in order to see how the library works with running cmd.exe.
-</Description>
+
+At JKI we develop software, architect solutions, and design user interfaces to automate, test, and control complex systems using a combination of LabVIEW and Python. If you are interested in working with JKI or want to learn more about how we can help your company please visit jki.net.</Description>
       <Copyright/>
       <Packager>Javier Ruiz</Packager>
       <URL/>
-      <Release_Notes>- First public build of the package
-- Added comments and made cosmetic changes
+      <Release_Notes>- Added support for receiving the Process Exit event when processes are terminated
+- Added a Ping example using cmd.exe
+- Added a PowerShell example
 
 </Release_Notes>
     </Description>
@@ -188,7 +190,8 @@
 -----------------------------------------------
 {product_name} {version_number}
 {author_name} - {company_name}
-{copyright}</Text_to_Add>
+{copyright}
+jki.net</Text_to_Add>
     </VI_Docs>
     <System_Destinations/>
   </Advanced_Settings>
@@ -282,7 +285,7 @@
         <Path>unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DDFB11D258698AB0A7866B8ABC7AC4FA</GUID>
+      <GUID>8F3005720A4449C475A5BD751D6D8CF6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -345,7 +348,7 @@
         <Path>examples\example_powershell.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3E6C0171D97D653BDE16171F89BAC346</GUID>
+      <GUID>080125B1E4D66F0501A25984AB6FA35B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
